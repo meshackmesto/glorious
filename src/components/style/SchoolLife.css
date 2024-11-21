@@ -1,0 +1,241 @@
+.main-schoollife{
+    width: 100%;
+    min-height: 60vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)
+    ), url('/src/assests/school_img.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-schoollife h1{
+    font-size: 100px;
+    font-weight: 600;
+}
+.schoollife-hero{
+    margin: 180px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.schoollife-left{
+    flex-basis: 56%;
+}
+.schoollife-right{
+    flex-basis: 40%;
+}
+.schoollife-right img{
+    width: 100%;
+    border-radius: 5px;
+}
+.schoollife-left h3{
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(122, 58, 151);
+}
+.schoollife-left h2{
+    font-weight: 500;
+    font-size: 35px;
+    color: #000F38;
+    max-width: 400px;
+}
+.schoollife-left p{
+    color: #676767;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.art{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.art img{
+    width: 90%;
+    border-radius: 5px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+.art img:hover{
+    transform: scale(1.2);
+}
+.art{
+    flex-basis: 31%;
+    position: relative;
+}
+.nutrition{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.nutrition-left{
+    flex-basis: 40%;
+}
+.nutrition-right{
+    flex-basis: 56%;
+}
+.nutrition-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.nutrition h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(158, 14, 158);
+}
+.nutrition h2{
+    font-size: 35px;
+    color: #000F38;
+    margin: 10px 0;
+    max-width: 400px;
+}
+.nutrition p{
+    color: #676767;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.music-page{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.music img{
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+
+}
+.music img:hover{
+    transform: scale(1.2);
+}
+
+.music{
+    flex-basis: 31%;
+    position: relative;
+}
+.culture{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.culture-left{
+    flex-basis: 56%;
+}
+.culture-right{
+    flex-basis: 40%;
+}
+.culture img{
+    width: 100%;
+    border-radius: 5px;
+}
+.culture h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(158, 14, 158);
+}
+.culture p{
+    color: #676767;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.sport{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sports img{
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+
+}
+.sports img:hover{
+    transform: scale(1.2);
+}
+
+.sports{
+    flex-basis: 31%;
+    position: relative;
+}
+
+@media (max-width: 850px){
+    .main-schoollife h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 650px){
+    .main-schoollife h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .art{
+        flex-direction: column;
+    }
+    .arts{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+    .music-page{
+        flex-direction: column;
+    }
+    .music{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+    .sport{
+        flex-direction: column;
+    }
+    .sports{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
+
+@media (max-width:800px){
+    .nutrition{
+        flex-direction: column;
+    }
+    .nutrition-left{
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+    .nutrition-right{
+        flex-basis: 100%;
+    }
+    .schoollife-hero{
+        flex-direction: column;
+    }
+    .schoollife-left{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+    .schoollife-right{
+        flex-basis: 100%;
+    }
+    .culture{
+        flex-direction: column;
+    }
+    .culture-left{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+    .culture-right{
+        flex-basis: 100%;
+    }
+}
