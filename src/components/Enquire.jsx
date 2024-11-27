@@ -96,4 +96,4 @@ const Enquire = () => {
   )
 }
 
-export default Enquire
+export default Enquire;

@@ -21,8 +21,8 @@ const VideoPlayer = ({ playState, setPlayState, videoType, videoId, videoSrc }) 
         <YouTube
           videoId={videoId}
           opts={{
-            width: "100%",
-            height: "100%",
+            width: "900px",
+            height: "700px",
             playerVars: {
               autoplay: 1,
             },

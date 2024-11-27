@@ -69,7 +69,9 @@ hr{
     color: #ffffff;
     font-weight: 600;
 }
-
+.copyright{
+    color: #ffffff;
+}
 @media (max-width: 850px){
     .sb__footer-heading h4{
         font-size: 44px;
