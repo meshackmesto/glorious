@@ -157,7 +157,7 @@ const HomePage = () => {
         <p>Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our montessori community.</p>
         <ul>
             <li> <FontAwesomeIcon icon={faEnvelope} className='fa-icons' />ContactUs@gloriousdawnmontessorischool@gmail.com </li>
-            <li> <FontAwesomeIcon icon={faPhone} className='fa-icons'/>+254727255986</li>
+            <li> <FontAwesomeIcon icon={faPhone} className='fa-icons'/>+254113283911</li>
             <li><FontAwesomeIcon icon={faLocationDot}className='fa-icons' />Community Road, Syokimau,<br/>
             Nairobi, Kenya</li>
             <li> <a href='https://www.facebook.com/share/zbRzGFz6CcDUEmx8/?mibextid=LQQJ4d'>
