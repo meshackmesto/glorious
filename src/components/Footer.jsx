@@ -19,7 +19,7 @@ const Footer = () => {
             <h4>Usefull info</h4>
             <ul>
               <li>ContactUs@gloriousdawnmontessorischool@gmail.com </li>
-              <li>Phone Number +254727255986</li>
+              <li>Phone Number +254113283911</li>
               <li>Community Road, Syokimau,<br/>
               Nairobi, Kenya</li>
             </ul>w
